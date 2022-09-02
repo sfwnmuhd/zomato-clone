@@ -155,3 +155,38 @@ header {
    margin-bottom: 4rem;
    
 }
+
+.section-2-heading {
+   font-size: 2rem;
+   line-height: 1.2;
+   font-weight: 400px;
+}
+
+.section-2 .section-2-container .section-2-items {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.section-2 .section-2-container .section-2-items .section-2-item {
+   width: 100%;
+   max-width: 26%;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px whitesmoke;
+   padding: 20px;
+}
+
+.section-2-item .item-head {
+   font-size: 1.2rem;
+   color: rgb(46, 45, 45);
+   margin: 0;
+   margin-bottom: 5px;
+}
+
+.section-2-item .item-subhead {
+   font-weight: lighter;
+   color: gray;
+   margin: 0;
+
+}
